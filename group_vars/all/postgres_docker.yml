@@ -1,6 +1,8 @@
 ---
 
 postgres_docker_tag: 9.6.11-alpine
+postgres_docker_network: {{ docker_networks }}
+postgres_docker_exposed_ports: []
 postgres_docker_data_dir: /etc/postgres
 postgres_docker_user: confluenceuser
 postgres_docker_password: !vault |
