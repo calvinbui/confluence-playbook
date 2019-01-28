@@ -11,5 +11,6 @@
   roles:
     - calvinbui.ansible_docker
     - calvinbui.ansible_pip
+    - calvinbui.ansible_docker_network
     - calvinbui.ansible_postgres_docker
     - calvinbui.ansible_confluence_docker
