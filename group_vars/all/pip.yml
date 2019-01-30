@@ -4,3 +4,5 @@ pip_version: 3
 
 pip_install_packages:
   - name: docker
+  - name: pyopenssl
+    version: '19.0.0'
