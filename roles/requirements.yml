@@ -16,4 +16,4 @@
   version: '2.0.0'
 
 - src: calvinbui.ansible_acme_certificates
-  version: '1.3.0'
+  version: '1.4.0'

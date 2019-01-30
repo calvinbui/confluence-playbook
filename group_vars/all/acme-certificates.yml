@@ -23,3 +23,4 @@ acme_certificate_domains:
     script: confluence-docker.sh
     script_executable: /bin/bash
     script_args: "confluence.bui.io {{ keys.path }}/confluence.bui.io.crt {{ keys.path }}/private.key {{ keys.path }}/confluence.bui.io-intermediate.crt"
+    force_deploy: true
