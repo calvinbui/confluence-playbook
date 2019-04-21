@@ -16,11 +16,11 @@ acme_certificate_cloudflare_api_token: !vault |
   6132393235613166633664363564366639633337363765653930
 
 acme_certificate_domains:
-  - name: confluence.bui.io
-    tld: bui.io
+  - name: confluence.bui.sh
+    tld: bui.sh
     email: "{{ acme_certificate_cloudflare_email }}"
     challenge: dns-01
     script: confluence-docker.sh
     script_executable: /bin/bash
-    script_args: "confluence.bui.io {{ keys.path }}/confluence.bui.io.crt {{ keys.path }}/private.key {{ keys.path }}/confluence.bui.io-intermediate.crt"
+    script_args: "confluence.bui.sh {{ keys.path }}/confluence.bui.sh.crt {{ keys.path }}/private.key {{ keys.path }}/confluence.bui.sh-intermediate.crt"
     force_deploy: true
