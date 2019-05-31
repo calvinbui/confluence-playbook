@@ -15,3 +15,4 @@
     - calvinbui.ansible_postgres_docker
     - calvinbui.ansible_confluence_docker
     - calvinbui.ansible_acme_certificates
+    - calvinbui.ansible_datadog
